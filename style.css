@@ -567,6 +567,8 @@ section::after {
     opacity: 0.5;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    max-width: 120px;
+
 }
 
 .footer-logo:hover,
@@ -629,10 +631,10 @@ section::after {
     margin:0 0 1.5rem;
     font-size: 34px;
     font-weight: 300;
-    color:#ffffff;
+    color:#131313;
 }
 .parallax-desc p {
-    color: #c4c4c4;
+    color: #6d6d6d;
     font-size: 17px;
     letter-spacing: 0.4px;
     margin: 0 0 1.5rem;
@@ -1409,3 +1411,11 @@ a,
     -ms-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+
+.letra-parallax{
+    color: #b64fc8;
+    text-transform: uppercase;
+}
+
+
+

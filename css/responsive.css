@@ -84,6 +84,9 @@
     .hero h2 {
         font-size: 34px;
     }
+    .contact{
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
@@ -144,6 +147,7 @@
         left: auto;
     }
 }
+
 
 
 
